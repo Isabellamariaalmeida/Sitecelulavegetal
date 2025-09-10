@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 60px;
+  margin: auto;
+  background-color: darkgreen;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+h1 {
+  font-size: 60px;
+  width: 300px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+p {
+  font-size: 25px;
+  font-weight: 100;
+  width: 700px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
