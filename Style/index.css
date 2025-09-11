@@ -10,7 +10,7 @@
   justify-content: flex-start;
   padding: 60px;
   margin: auto;
-  background-color: darkgreen;
+  background-image: url("/images/biologia.jpg");
   background-repeat: none;
   background-size: cover;
   background-position: center;
@@ -51,7 +51,7 @@ p {
   text-align: center;
   text-decoration: none;
 }
-.imagem.da-celula-vegetal {
+.imagem-da-celula-vegetal {
   width: 40%;
   height: auto;
 }
