@@ -5,9 +5,6 @@
 }
 
 .container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   padding: 60px;
   margin: auto;
   background-image: url("/images/biologia.jpg");
@@ -33,6 +30,8 @@ p {
 }
 
 .botao-primario {
+  position: relative;
+  top: 50px;
   font-family: "Roboto", sans-serif;
   background-color: chartreuse;
   color: white;
@@ -42,6 +41,9 @@ p {
   text-decoration: none;
 }
 .botao-secundario {
+  position: relative;
+  top: 50px;
+  left: 5px;
   background-color: transparent;
   font-family: "Roboto", sans-serif;
   color: white;
