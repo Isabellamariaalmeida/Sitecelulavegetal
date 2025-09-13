@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: none;
   padding: 0;
   box-sizing: border-box;
 }
@@ -7,7 +7,8 @@
 .conteudo {
   font-size: 15px;
   font-family: sans-serif;
-  margin-top: auto;
+  margin-top: 20px;
+  background-color: #d4f0c0;
 }
 
 .texto-principal {
@@ -17,7 +18,11 @@
 }
 .cloroplasto {
   position: relative;
-  top: 20px;
+}
+.cloroplasto img {
+  transform: scaleX(-1);
+  position: relative;
+  left: -45px;
 }
 .Imagem-organela-ribossomo {
   position: relative;
@@ -25,11 +30,16 @@
 }
 .RE img {
   position: relative;
-  left: -50px;
-  top: -20px;
+  top: -10px;
   transform: scaleX(-1);
 }
 .RE {
   position: relative;
   top: -50px;
+}
+.Ribossomos {
+  margin-top: 20px;
+}
+.REL {
+  margin-top: -50px;
 }
