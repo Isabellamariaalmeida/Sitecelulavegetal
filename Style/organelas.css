@@ -13,7 +13,23 @@
 .texto-principal {
   text-align: initial;
   margin-top: 15px;
+  font-size: 19px;
 }
 .cloroplasto {
-  margin-top: 20px;
+  position: relative;
+  top: 20px;
+}
+.Imagem-organela-ribossomo {
+  position: relative;
+  top: -40px;
+}
+.RE img {
+  position: relative;
+  left: -50px;
+  top: -20px;
+  transform: scaleX(-1);
+}
+.RE {
+  position: relative;
+  top: -50px;
 }
