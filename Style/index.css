@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -17,14 +19,14 @@
 h1 {
   font-size: 60px;
   width: 300px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Caprasimo", serif;
   text-transform: uppercase;
 }
 p {
   font-size: 25px;
   font-weight: 100;
   width: 700px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Merriweather", serif;
   margin-top: 10px;
   margin-bottom: 30px;
 }

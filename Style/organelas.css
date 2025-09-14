@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+
 * {
-  margin: none;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -7,17 +9,27 @@
 .conteudo {
   font-size: 15px;
   font-family: sans-serif;
-  margin-top: 20px;
   background-color: #d4f0c0;
 }
+h1 {
+  font-family: "Caprasimo", serif;
+}
 
+h2 {
+  font-family: "Caprasimo", serif;
+}
+p {
+  font-family: "Merriweather", serif;
+}
 .texto-principal {
   text-align: initial;
-  margin-top: 15px;
+  margin-top: 20px;
   font-size: 19px;
+  font-family: "Merriweather", serif;
 }
 .cloroplasto {
   position: relative;
+  top: 20px;
 }
 .cloroplasto img {
   transform: scaleX(-1);
@@ -42,4 +54,23 @@
 }
 .REL {
   margin-top: -50px;
+}
+.Mitocôndria img {
+  position: relative;
+  top: -60px;
+  left: -20px;
+}
+.Núcleo {
+  position: relative;
+  top: -80px;
+}
+.Núcleo img {
+  position: relative;
+  top: -15px;
+  left: -60px;
+}
+.Vacúolo-Vegetal img {
+  position: relative;
+  top: -10px;
+  left: -10px;
 }
