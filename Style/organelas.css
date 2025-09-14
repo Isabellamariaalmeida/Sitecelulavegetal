@@ -34,26 +34,44 @@ p {
 .cloroplasto img {
   transform: scaleX(-1);
   position: relative;
+  top: 20px;
   left: -45px;
 }
-.Imagem-organela-ribossomo {
-  position: relative;
-  top: -40px;
-}
+
 .RE img {
-  position: relative;
-  top: -10px;
   transform: scaleX(-1);
 }
 .RE {
   position: relative;
-  top: -50px;
+  top: 40px;
+}
+.Ribossomos img {
+  position: relative;
+  top: -20px;
 }
 .Ribossomos {
-  margin-top: 20px;
+  position: relative;
+  top: 60px;
 }
 .REL {
-  margin-top: -50px;
+  position: relative;
+  top: 50px;
+}
+.Complexo-de-golgi {
+  position: relative;
+  top: 70px;
+}
+.Peroxissomos {
+  position: relative;
+  top: 100px;
+}
+.Vacúolo-Vegetal {
+  position: relative;
+  top: 120px;
+}
+.Mitocôndria {
+  position: relative;
+  top: 135px;
 }
 .Mitocôndria img {
   position: relative;
@@ -62,7 +80,7 @@ p {
 }
 .Núcleo {
   position: relative;
-  top: -80px;
+  top: 70px;
 }
 .Núcleo img {
   position: relative;
@@ -73,4 +91,8 @@ p {
   position: relative;
   top: -10px;
   left: -10px;
+}
+.btn {
+  position: relative;
+  left: -20px;
 }
