@@ -13,7 +13,7 @@ body {
 .container {
   padding: 40px;
   margin: auto;
-  background-image: url("/images/fundo.jpg");
+  background-image: url("../images/fundo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -86,10 +86,10 @@ p {
 }
 
 @media (max-width: 768px) {
-  .resumo-celular{
+  .resumo-celular {
     background-color: aliceblue;
     border-radius: 1rem;
-    border-style:solid;
+    border-style: solid;
     height: fit-content;
     width: fit-content;
     text-align: justify;
@@ -97,11 +97,10 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    .paragrafo{
+    .paragrafo {
       text-indent: 2rem;
       text-indent: 0.5rem;
       padding: 1rem;
-
     }
   }
   h1 {
@@ -133,7 +132,6 @@ p {
     text-align: center;
     background-size: 220% 100%;
     background-position: right;
-
   }
 
   h1 {
@@ -147,7 +145,6 @@ p {
   .botoes {
     display: flex;
     margin-right: 13rem;
-
   }
   .idiomas-container {
     align-items: center;
