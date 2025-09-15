@@ -22,12 +22,13 @@
 
 p {
   font-family: "Merriweather", serif;
+  font-size: 25px;
 }
 
 .texto-principal {
   text-align: initial;
   margin-top: 20px;
-  font-size: 19px;
+  font-size: 30px;
   max-width: 90%;
 }
 
@@ -61,7 +62,7 @@ p {
     text-align: center;
   }
   .texto-principal {
-    font-size: 5px;
+    font-size: 8px;
     text-align: center;
   }
 
@@ -143,5 +144,88 @@ p {
   }
   .Complexo-de-golgi img {
     max-width: 80%;
+  }
+}
+.Peroxissomos,
+.Vacúolo-Vegetal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.Peroxissomos img,
+.Vacúolo-Vegetal img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .Peroxissomos,
+  .Vacúolo-Vegetal {
+    align-items: center;
+  }
+
+  .Peroxissomos img,
+  .Vacúolo-Vegetal img {
+    max-width: 80%;
+  }
+}
+.Mitocôndria,
+.Núcleo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+
+.Mitocôndria img {
+  max-width: 100%;
+  height: auto;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+.Núcleo img {
+  max-width: 100%;
+  height: auto;
+  margin-left: -60px;
+}
+
+@media (max-width: 768px) {
+  .Mitocôndria,
+  .Núcleo {
+    align-items: center;
+  }
+
+  .Mitocôndria img {
+    max-width: 80%;
+  }
+  .Núcleo img {
+    max-width: 80%;
+  }
+}
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: darkgreen; /* mantém cor original */
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 70%;
+    text-align: center;
   }
 }
