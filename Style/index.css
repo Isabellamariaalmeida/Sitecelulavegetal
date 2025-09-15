@@ -55,6 +55,7 @@ p {
   padding: 12px 24px;
   text-align: center;
   text-decoration: none;
+  font-size: 15px;
 }
 
 .botao-secundario {
@@ -65,12 +66,14 @@ p {
   padding: 12px 24px;
   text-align: center;
   text-decoration: none;
+  font-size: 15px;
 }
 
 .idiomas-container {
   margin-top: 30px;
   display: flex;
   gap: 15px;
+  font-size: 15px;
 }
 
 .idiomas {
@@ -89,16 +92,19 @@ p {
 
   p {
     font-size: 1rem;
+    text-align: left;
   }
 
   .botoes {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
   }
 
   .idiomas-container {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-start;
   }
 }
 
@@ -114,13 +120,14 @@ p {
   }
 
   p {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
   }
 
   .botoes {
-    align-items: center;
+    justify-content: flex-start;
   }
   .idiomas-container {
     align-items: center;
+    justify-content: flex-start;
   }
 }

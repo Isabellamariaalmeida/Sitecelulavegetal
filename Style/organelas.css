@@ -16,7 +16,7 @@
 .h1 {
   font-family: "Caprasimo", serif;
 }
-h2 {
+.h2 {
   font-family: "Caprasimo", serif;
 }
 
@@ -32,7 +32,7 @@ p {
 }
 
 .cloroplasto {
-  margin-top: 20px;
+  margin-top: 35px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -42,6 +42,7 @@ p {
   transform: scaleX(-1);
   max-width: 100%;
   height: auto;
+  margin-left: -25%;
 }
 
 @media (max-width: 768px) {
@@ -56,12 +57,11 @@ p {
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1rem;
     text-align: center;
   }
-
   .texto-principal {
-    font-size: 14px;
+    font-size: 5px;
     text-align: center;
   }
 
@@ -70,61 +70,78 @@ p {
   }
 }
 
-.RE img {
-  transform: scaleX(-1);
+.Ribossomos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
 }
 .RE {
-  position: relative;
-  top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
 }
+
 .Ribossomos img {
-  position: relative;
-  top: -20px;
+  max-width: 100%;
+  height: auto;
 }
-.Ribossomos {
-  position: relative;
-  top: 60px;
+.RE img {
+  max-width: 100%;
+  height: auto;
 }
+
+@media (max-width: 768px) {
+  .Ribossomos {
+    align-items: center;
+  }
+  .RE {
+    align-items: center;
+  }
+
+  .Ribossomos img {
+    max-width: 80%;
+  }
+  .RE img {
+    max-width: 80%;
+  }
+}
+
 .REL {
-  position: relative;
-  top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
 }
 .Complexo-de-golgi {
-  position: relative;
-  top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 30px;
 }
-.Peroxissomos {
-  position: relative;
-  top: 100px;
+
+.REL img {
+  max-width: 100%;
+  height: auto;
 }
-.Vacúolo-Vegetal {
-  position: relative;
-  top: 120px;
+.Complexo-de-golgi img {
+  max-width: 100%;
+  height: auto;
 }
-.Mitocôndria {
-  position: relative;
-  top: 135px;
-}
-.Mitocôndria img {
-  position: relative;
-  top: -60px;
-  left: -20px;
-}
-.Núcleo {
-  position: relative;
-  top: 70px;
-}
-.Núcleo img {
-  position: relative;
-  top: -15px;
-  left: -60px;
-}
-.Vacúolo-Vegetal img {
-  position: relative;
-  top: -10px;
-  left: -10px;
-}
-.btn {
-  position: relative;
-  left: 10px;
+
+@media (max-width: 768px) {
+  .REL {
+    align-items: center;
+  }
+  .Complexo-de-golgi {
+    align-items: center;
+  }
+
+  .REL img {
+    max-width: 80%;
+  }
+  .Complexo-de-golgi img {
+    max-width: 80%;
+  }
 }
