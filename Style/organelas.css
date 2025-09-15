@@ -10,32 +10,64 @@
   font-size: 15px;
   font-family: sans-serif;
   background-color: #d4f0c0;
-}
-h1 {
-  font-family: "Caprasimo", serif;
+  padding: 20px;
 }
 
+.h1 {
+  font-family: "Caprasimo", serif;
+}
 h2 {
   font-family: "Caprasimo", serif;
 }
+
 p {
   font-family: "Merriweather", serif;
 }
+
 .texto-principal {
   text-align: initial;
   margin-top: 20px;
   font-size: 19px;
-  font-family: "Merriweather", serif;
+  max-width: 90%;
 }
+
 .cloroplasto {
-  position: relative;
-  top: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
+
 .cloroplasto img {
   transform: scaleX(-1);
-  position: relative;
-  top: 20px;
-  left: -45px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .texto-principal {
+    font-size: 16px;
+  }
+
+  .cloroplasto {
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .texto-principal {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .cloroplasto img {
+    max-width: 80%;
+  }
 }
 
 .RE img {
