@@ -13,23 +13,28 @@
   font-family: "Merriweather", serif;
 }
 
-.h1 {
+h1 {
   font-family: "Caprasimo", serif;
 }
-.h2 {
+h2 {
   font-family: "Caprasimo", serif;
+  font-size: 37px;
 }
 
 small {
   font-family: "Merriweather", serif;
   font-size: 28px;
 }
+  p{
+    font-size: 35px;
+  }
 
 .texto-principal {
   text-align: initial;
   margin-top: 20px;
   font-size: 30px;
   max-width: 90%;
+  font-family: "Merriweather", serif;
 }
 
 .cloroplasto {
